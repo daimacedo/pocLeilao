@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.leilao.teste.UsuarioSystemTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 7.529 sec - in br.com.leilao.teste.UsuarioSystemTest
