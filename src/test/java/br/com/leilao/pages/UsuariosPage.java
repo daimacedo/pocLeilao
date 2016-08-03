@@ -1,16 +1,12 @@
-package br.com.leilao.teste;
+package br.com.leilao.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class UsuariosPage {
+import br.com.leilao.base.BaseTestes;
+
+public class UsuariosPage extends BaseTestes{
 	
-	private WebDriver driver;
-	
-	public UsuariosPage(WebDriver driver)
-	{
-		this.driver=driver;
-	}
 	
 	public void visita()
 	{

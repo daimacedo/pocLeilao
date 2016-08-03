@@ -1,20 +1,14 @@
-package br.com.leilao.teste;
+package br.com.leilao.pages;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.NoSuchElementException;
+import br.com.leilao.base.BaseTestes;
 
-public class NovoUsuarioPage {
+public class NovoUsuarioPage extends BaseTestes{
 	
-	private final WebDriver driver;
-	
-	
-	public NovoUsuarioPage(WebDriver driver)
-	{
-		this.driver=driver;
-	}
 	
 	public void cadastra(String nome, String email)
 	{

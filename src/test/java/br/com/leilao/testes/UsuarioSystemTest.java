@@ -1,21 +1,17 @@
-package br.com.leilao.teste;
+package br.com.leilao.testes;
 
 import static org.junit.Assert.assertTrue;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.sun.jna.platform.unix.X11.Window;
+import br.com.leilao.pages.NovoUsuarioPage;
+import br.com.leilao.pages.UsuariosPage;
+import br.com.leilao.base.BaseTestes;
 
-import junit.framework.AssertionFailedError;
-
-public class UsuarioSystemTest {
+public class UsuarioSystemTest extends BaseTestes {
 
 	private FirefoxDriver driver;
 	private UsuariosPage usuario;
@@ -30,12 +26,6 @@ public class UsuarioSystemTest {
 		driver.manage().window().maximize();
 	}
 	
-//	@After
-//	public void finalizaTeste()
-//	{
-//		driver.close();
-//	}
-
 	@Test
 	@Ignore
 	public void adicionarUsuario() {	
