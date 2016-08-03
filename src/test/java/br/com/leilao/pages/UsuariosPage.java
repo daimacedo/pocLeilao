@@ -17,7 +17,7 @@ public class UsuariosPage extends BaseTestes{
 	public NovoUsuarioPage novo()
 	{
 		driver.findElement(By.linkText("Novo Usuário")).click();
-		return new NovoUsuarioPage(driver);
+		return new NovoUsuarioPage();
 	}
 	
 	public boolean existeNaListagem(String nome, String email)

@@ -19,11 +19,8 @@ public class UsuarioSystemTest extends BaseTestes {
 	
 	@Before
 	public void inicializaTeste() {
-		driver = new FirefoxDriver();
-		this.usuario = new UsuariosPage(driver);
-		this.novoUsuario = new NovoUsuarioPage(driver);
-		driver.get("http://localhost:8080/usuarios");
-		driver.manage().window().maximize();
+		this.usuario = new UsuariosPage();
+		this.novoUsuario = new NovoUsuarioPage();
 	}
 	
 	@Test
@@ -50,7 +47,7 @@ public class UsuarioSystemTest extends BaseTestes {
 	}
 	
 	@Test
-	public void validaExlusao()
+	public void validaExlusao() throws InterruptedException
 	{
 		usuario.novo().cadastra("Teste", "Teste");
 		novoUsuario.excluiUsuario();

@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import br.com.leilao.base.BaseTestes;
 
 public class NovoUsuarioPage extends BaseTestes{

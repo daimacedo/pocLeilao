@@ -1,4 +1,6 @@
-/home/daiane/workspace/leilao/src/test/java/br/com/leilao/teste/UsuarioSystemTest.java
+/home/daiane/workspace/leilao/src/test/java/br/com/leilao/pages/UsuariosPage.java
+/home/daiane/workspace/leilao/src/test/java/br/com/leilao/testes/UsuarioSystemTest.java
+/home/daiane/workspace/leilao/src/test/java/br/com/leilao/base/BaseTestes.java
+/home/daiane/workspace/leilao/src/test/java/br/com/leilao/teste/suite/SuiteTestes.java
 /home/daiane/workspace/leilao/src/test/java/testeSelenium/TesteAutomatizado.java
-/home/daiane/workspace/leilao/src/test/java/br/com/leilao/teste/UsuariosPage.java
-/home/daiane/workspace/leilao/src/test/java/br/com/leilao/teste/NovoUsuarioPage.java
+/home/daiane/workspace/leilao/src/test/java/br/com/leilao/pages/NovoUsuarioPage.java
